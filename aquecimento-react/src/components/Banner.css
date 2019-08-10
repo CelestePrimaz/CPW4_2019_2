@@ -1,5 +1,5 @@
 .banner{
-    background-color: #2E4756;
+    background-color:#6D213C;
     padding: 20px 0px 10px 20px;
 
 }
@@ -15,7 +15,7 @@
     text-decoration: none;
 }
 #titulo a:hover{
-    color: #C1EDCC;
+    color: #987284;
 }
 #menu{
     list-style: none;
@@ -28,7 +28,7 @@
     padding-bottom: 3px;
 }
 #menu li:hover{
-    border-bottom: 5px solid #C1EDCC;
+    border-bottom: 5px solid #DB7F8E;
 }
 #menu a{
     text-decoration: none;

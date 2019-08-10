@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
+
 import './Banner.css';
 
 
@@ -6,18 +9,20 @@ class Banner extends Component {
     render() {
         return (
             <div className="banner">
+
                 <span id="titulo">
-                   <a href="/inicio"> Aquecimento</a>
+                    <Link to="/inicio">Aquecimento</Link>
                 </span>
+
                 <ul id="menu">
                     <li>
-                        <a href="/inicio">Início</a>
+                         <Link to="/inicio">Início</Link>
                     </li>
                     <li>
-                        <a href="/sobre">Sobre</a>
+                        <Link to="/sobre">Sobre</Link>
                     </li>
                     <li>
-                    <a href="/contato">Contato</a>
+                        <Link to="/contato">Contato</Link>
                     </li>
                 </ul>
 
