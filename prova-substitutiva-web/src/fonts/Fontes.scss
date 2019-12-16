@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "decorativa";
+    src: url(./FrederickatheGreat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "padrao";
+    src: url(./Abel-Regular.ttf);
+}
+
+@font-face {
+    font-family: "negrito";
+    src: url(./Neuton-Bold.ttf);
+}
+
+$fonte-decorativa: "decorativa";
+$fonte-padrao: "padrao";
+$fonte-negrito: "negrito";

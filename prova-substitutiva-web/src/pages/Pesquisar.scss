@@ -1,0 +1,136 @@
+@import '../Cores';
+@import '../fonts/Fontes';
+
+
+    
+    .buscador {
+        width: 900px;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    h1 {
+        font-size: 40px;
+        font-family:$fonte-decorativa;
+        margin-bottom: 40px;
+    }
+    form {
+        display: inline-block;
+        border-radius: 20px;
+        box-shadow: 0 0 19px 1px #883677;
+        margin-bottom: 40px;
+
+    }
+    input {
+        line-height: 40px;
+        border-radius: 20px 0 0 20px;
+        border: none;
+        width: 400px;
+        padding: 0 20px;
+
+        &[type=text] {
+            font-size: 16px;
+            text-align: center;
+            font-family: $fonte-padrao;
+        }
+    }
+    button {
+        line-height: 40px;
+        border: none;
+        background:$cor5;
+        padding: 0 20px;
+        border-radius: 0 20px 20px 0;
+        cursor: pointer;
+
+        &[type=submit] {
+            font-size: 16px;
+            font-family: $fonte-negrito;    
+        }
+    }
+    input , button:focus {
+        outline: none;
+    }
+    .resultado {
+        width: 800px;
+        margin: 0 auto;
+        display:inline-block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .resultado h3 {
+        font-size: 25px;
+        color: $cor3;
+        font-family: $fonte-negrito;
+    }
+    .resultado h3 a {
+        color: $cor3;
+        display: inline-block;
+        line-height: 16px;
+        text-decoration: none;
+    }
+    .resultado h3 a:hover {
+        text-decoration: none;
+        text-shadow: 0 0 10px #3b0734;
+    }
+    .resultado .sinopse {
+        color: $cor1;
+        font-family: $fonte-padrao;
+    }
+
+
+    @media only screen and (max-width: 768px){
+        .buscador{
+            text-align: center;
+            width: 90%;
+            margin: 0px auto 2px auto;
+            font-size: 70%;
+            padding: 5px;
+            margin-left: 13px;
+        }
+        h1{
+            font-size: 25px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        h3{
+            margin-left: 10px;
+            font-size:16px;
+        }
+        .sinopse{
+            width: 30%;
+            font-size: 14px;            
+        }
+        .link a{
+            display:block;
+            width: 10%;
+            font-size: 13px;
+            margin-left: 10px;        
+        }       
+        form {
+            margin-left: 15px;
+            width: 90%;
+        input {
+            padding: 0 ;
+            display:inline;
+            margin: 1px;
+            text-align: center;
+                
+
+            &[type=text] {
+                width: 90%;
+                height: 35px;
+                text-align: center;
+        }
+    }
+        button{
+            line-height: 30px;
+                
+            &[type=submit] {
+                width: 100%;
+                text-align: center;
+                border-radius: 20px 20px 20px 20px;
+                    
+                }
+            }
+        }
+    }
